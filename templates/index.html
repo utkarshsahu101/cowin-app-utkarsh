@@ -1,0 +1,9 @@
+{% extends 'base.html' %} 
+{% block content %}
+    <!-- <div>{{data}}</div> -->
+    {% for data in data %}
+    <div>{{data}}</div>
+    <!-- <div>{{data['id']}}</div>
+        <div>{{data['title']}}</div> -->
+    {% endfor %}
+{% endblock content %}
